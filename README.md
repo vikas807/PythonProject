@@ -2,7 +2,7 @@
 
 This Python project aims to validate an email address based on certain criteria. It checks whether the provided email address meets the following requirements:
 
-1. The length of the email should be at least 6 characters.
+1. The length of the email should be at least 6 characters. 
 2. The first character of the email should be a letter.
 3. The email should contain one and only one "@" symbol.
 4. The domain extension should be either three or four characters long, preceded by a dot.
