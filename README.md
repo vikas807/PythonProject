@@ -1,6 +1,6 @@
-# PythonProject# 
+# PythonProject
 
-#Email Validation Python Project
+## Email Validation Python Project
 
 This Python project aims to validate an email address based on certain criteria. It checks whether the provided email address meets the following requirements:
 
