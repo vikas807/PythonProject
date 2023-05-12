@@ -14,7 +14,7 @@ def shutdown():
 st = Tk()
 st.title("ShutDown App")
 st.geometry("500x500")
-st.config(bg="Red")
+st.config(bg="Skyblue")
 
 r_button = Button(st,text="Restart",font=("Time New Roman",30,"bold"),relief=RAISED,cursor="plus",command=restart)
 r_button.place(x=150,y=60,height=50,width=200)
