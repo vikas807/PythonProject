@@ -46,7 +46,6 @@ Enter your email: john.doe@example.com
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-Sure! Here's a README file for the provided code:
 
 # ShutDown App
 
