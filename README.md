@@ -88,3 +88,57 @@ This application is a basic implementation and does not include any advanced err
 
 Please use the ShutDown App responsibly. Be cautious when performing shutdown operations, especially if you have unsaved work or other important processes running on your computer. The author and contributors of the ShutDown App are not responsible for any data loss or damages that may occur due to the use of this application.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Speed Test Application
+
+This is a simple speed test application built using the Tkinter library in Python. The application allows you to measure your internet download and upload speeds.
+
+## Prerequisites
+- Python (version 3 or above)
+- Tkinter library
+- speedtest library
+
+## Installation
+1. Install Python: You can download and install Python from the official Python website (https://www.python.org) based on your operating system.
+
+2. Install Tkinter: Tkinter is usually included with Python installations. If it's not already installed, you can use the following command to install Tkinter:
+```
+pip install tkinter
+```
+
+3. Install speedtest library: The speedtest library is used to perform the internet speed test. You can install it using the following command:
+```
+pip install speedtest-cli
+```
+
+## Usage
+1. Copy the provided code into a Python script file (e.g., `speed_test_app.py`).
+
+2. Run the script: Open a terminal or command prompt, navigate to the directory where the script is located, and execute the following command:
+```
+python internet_speed.py
+```
+
+3. The application window will appear with a "CHECK SPEED" button.
+
+4. Click the "CHECK SPEED" button to start the speed test. The application will measure your download and upload speeds and display them on the screen.
+
+## How it Works
+1. The script imports the necessary libraries, including Tkinter and speedtest.
+
+2. The `speedcheck` function is defined, which performs the speed test. It creates a Speedtest object, retrieves the list of available servers, measures the download and upload speeds, and updates the corresponding labels on the screen.
+
+3. The Tkinter window is created with appropriate labels and buttons.
+
+4. When the "CHECK SPEED" button is clicked, it calls the `speedcheck` function to perform the speed test.
+
+5. The Tkinter main loop (`sp.mainloop()`) runs the application and keeps the window open until it is closed.
+
+## Customization
+You can customize the application according to your needs. For example, you can modify the window size, font styles, colors, or add additional functionality.
+
+Feel free to explore and enhance the application based on your requirements.
+
+**Note:** Ensure that you have a stable internet connection while running the speed test application to get accurate results.
+
