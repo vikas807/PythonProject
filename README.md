@@ -2,7 +2,7 @@
 
 ## Email Validation Python Project
 
-This Python project aims to validate an email address based on certain criteria. It checks whether the provided email address meets the following requirements:
+This Python project is aims to validate an email address based on certain criteria. It checks whether the provided email address meets the following requirements:
 
 1. The length of the email should be at least 6 characters. 
 2. The first character of the email should be a letter.
